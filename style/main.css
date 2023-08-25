@@ -1,0 +1,127 @@
+@import './reset.css';
+
+@font-face {
+	font-family: 'YSText';
+	src: url('../style/fonts/text-regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YSText';
+	src: url('../style/fonts/text-medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YSText';
+	src: url('../style/fonts/text-black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: YSText, sans-serif;
+	font-size: 1.6rem;
+	color: #21201F;
+}
+
+.container {
+	max-width: 966px;
+	padding: 0 16px;
+	margin: 0 auto;
+}
+
+.header {
+	background-image: url(../img/background-color-gradient.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.background {
+	background-image: url(../img/background-white-gradient.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nav {
+	padding: 12.5rem 0rem 7.2rem;
+}
+
+.link-logo {
+	display: block;
+	width: 17.6rem;
+	height: 5rem;
+	background-color: transparent;
+	background-image: url('../img/svg/logo.svg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.banner {
+	max-width: 42rem;
+	margin-bottom: 3.6rem;
+}
+
+.banner__title {
+	margin-bottom: 4.8rem;
+	font-size: 7.2rem;
+	font-weight: 900;
+	line-height: 100%;
+	letter-spacing: -1.44px;
+}
+
+.banner__description {
+	font-size: 2.4rem;
+	font-weight: 500;
+	line-height: 130%;
+}
+
+.banner__bage {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 12px 0px 0px;
+	gap: 1.2rem;
+	border-radius: 500px;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.63) 100%), radial-gradient(141.42% 141.42% at 100.00% -0.00%, #E0B8FF 0%, #B6B9FF 100%);
+}
+
+.price {
+	color: #808080;
+	font-size: 1.6rem;
+	line-height: 120%;
+	text-decoration: line-through;
+}
+
+.price__sale {
+	padding: 8px 12px;
+	border-radius: 500px;
+	background: radial-gradient(141.42% 141.42% at 100.00% -0.00%, #E0B8FF 0%, #B6B9FF 100%);
+	color: #2E2C21;
+}
+
+.btn a {
+	display: inline-flex;
+	align-items: center;
+	padding: 24px 48px;
+	border-radius: 36px;
+	background: #FFDE40;
+	box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+
+	font-size: 2.4rem;
+	font-weight: 500;
+	line-height: 22px;
+
+	color: #21201F;
+}
+
+.wrapper {
+	padding-bottom: 12.5rem;
+}
