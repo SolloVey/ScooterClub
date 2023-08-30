@@ -166,7 +166,7 @@ body {
 	height: 180px;
 }
 
-/* .wheel__text {
+.wheel__text {
 	animation: rotateText 240s infinite linear;
 }
 
@@ -178,7 +178,7 @@ body {
 	to {
 		transform: rotate(-3600deg);
 	}
-} */
+}
 
 /* BONUSES */
 .bonuses {
